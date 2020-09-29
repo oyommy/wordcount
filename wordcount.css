@@ -1,0 +1,51 @@
+body {
+    /* background-color: #931a25; */
+    background-color: #e7dec8;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    color: #1a1c20;
+}
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    
+}
+
+#text__area{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(18, 25, 100, 0.5);
+}
+
+#btn {
+    margin-top: 10px;
+    padding: 8px;
+    font-family: monospace;
+    font-size: 20px;
+    border-radius: 8px;
+    outline: none;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+#btn:hover{
+   background-color:#fff;
+   color: #000; 
+}
+
+#your_essay{
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    outline: none;
+    border: none;
+}
+p{
+    color: #1a1c20;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wordcount.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Count Number of Words and Characters</title>
+</head>
+<body>
+    
+    <div id="container">
+        <h3>Count Number of Words and Characters</h3>
+        
+        <div id="text__area">
+            <textarea id="your_essay" cols="80" rows="15" placeholder="type or paste your text here and click the 'Count' button"></textarea>
+            <button id="btn" onclick="countWord()">Count</button>
+            
+        </div>
+        
+
+        <p class="word__count"></p>
+        <p class="characters"></p>
+        <p class="instruction">This is a simple app that helps determine number of words and number of characters. Bear in mind
+            that the number of characters involves spaces and punctuation marks.
+        </p>
+    </div>
+    <script src="wordcount.js">
+
+    </script>
+</body>
+</html>
